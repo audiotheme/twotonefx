@@ -1,0 +1,24 @@
+{
+  "name": "twotone-fx",
+  "version": "1.0.0",
+  "description": "A WordPress plugin for applying a duotone effect to photos in the media library.",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/audiotheme/twotone-fx"
+  },
+  "author": {
+    "name": "Brady Vercher",
+    "email": "brady@blazersix.com",
+    "url": "https://audiotheme.com/"
+  },
+  "license": "GPL-2.0+",
+  "bugs": {
+    "url": "https://github.com/audiotheme/twotone-fx/issues"
+  },
+  "homepage": "https://github.com/audiotheme/twotone-fx",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-wp-i18n": "^0.5.3"
+  }
+}
