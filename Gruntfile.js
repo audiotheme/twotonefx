@@ -10,7 +10,7 @@ module.exports = function( grunt ) {
 		makepot: {
 			plugin: {
 				options: {
-					mainFile: 'twotone-fx.php',
+					mainFile: 'twotonefx.php',
 					potHeaders: {
 						poedit: true
 					},

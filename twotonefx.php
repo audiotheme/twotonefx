@@ -9,14 +9,14 @@
  *
  * @wordpress-plugin
  * Plugin Name: Twotone FX
- * Plugin URI:  https://wordpress.org/plugins/twotone-fx/
+ * Plugin URI:  https://wordpress.org/plugins/twotonefx/
  * Description: Apply a duotone effect to photos in the WordPress media library.
  * Version:     1.0.0
  * Author:      AudioTheme
  * Author URI:  https://audiotheme.com/
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: twotone-fx
+ * Text Domain: twotonefx
  * Domain Path: /languages
  */
 
@@ -27,7 +27,7 @@ $twotonefx_plugin = new TwotoneFX_Plugin();
 $twotonefx_plugin
 	->set_directory( plugin_dir_path( __FILE__ ) )
 	->set_file( __FILE__ )
-	->set_slug( 'twotone-fx' )
+	->set_slug( 'twotonefx' )
 	->set_url( plugin_dir_url( __FILE__ ) );
 
 /**
@@ -37,7 +37,7 @@ $twotonefx_plugin
  */
 function twotonefx_load_textdomain() {
 	$plugin_rel_path = dirname( plugin_basename( __FILE__ ) ) . '/languages';
-	load_plugin_textdomain( 'twotone-fx', false, $plugin_rel_path );
+	load_plugin_textdomain( 'twotonefx', false, $plugin_rel_path );
 }
 add_action( 'plugins_loaded', 'twotonefx_load_textdomain' );
 
