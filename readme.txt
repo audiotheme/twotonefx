@@ -1,5 +1,5 @@
 === Twotone FX ===
-Contributors: audiotheme, bradyvercher, brodyvercher
+Contributors: audiotheme, bradyvercher, brodyvercher, thelukemcdonald
 Tags: duotone, photo, filter, image, media, fx
 Requires at least: 4.3
 Tested up to: 4.3
@@ -11,7 +11,7 @@ Apply a duotone effect to photos in the media library.
 
 == Description ==
 
-
+Inspired by the duotone effect employed in the [*Twotone*](https://audiotheme.com/view/twotone/?utm_source=wordpress.org&utm_medium=link&utm_content=twotonefx-readme&utm_campaign=plugins) theme, <em>Twotone FX</em> makes it easy to preview and apply a similar filter to any photo in your Media Library.
 
 = Support Policy =
 
@@ -27,7 +27,6 @@ We'll do our best to keep this plugin up to date, fix bugs and implement feature
 == Installation ==
 
 Install like any other plugin. [Refer to the Codex](http://codex.wordpress.org/Managing_Plugins#Installing_Plugins) if you have any questions.
-
 
 = Accessing the Image Editor =
 

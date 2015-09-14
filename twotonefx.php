@@ -9,11 +9,11 @@
  *
  * @wordpress-plugin
  * Plugin Name: Twotone FX
- * Plugin URI:  https://wordpress.org/plugins/twotonefx/
- * Description: Apply a duotone effect to photos in the WordPress media library.
+ * Plugin URI:  https://audiotheme.com/view/twotonefx/?utm_source=wordpress-plugin&utm_medium=link&utm_content=twotonefx-plugin-uri&utm_campaign=plugins
+ * Description: Apply a duotone effect to photos in the media library.
  * Version:     1.0.0
  * Author:      AudioTheme
- * Author URI:  https://audiotheme.com/
+ * Author URI:  https://audiotheme.com/?utm_source=wordpress-plugin&utm_medium=link&utm_content=twotonefx-author-uri&utm_campaign=plugins
  * License:     GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: twotonefx
