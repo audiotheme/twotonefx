@@ -52,6 +52,7 @@ class TwotoneFX_Image_Editor_Imagick extends WP_Image_Editor_Imagick {
 	 */
 	public function twotonefx( $start, $end ) {
 		$this->convert_to_grayscale();
+		$this->image->transformImageColorspace( imagick::COLORSPACE_RGB );
 
 		$clut = $this->get_map( $start, $end );
 		$this->image->clutImage( $clut );
