@@ -40,9 +40,9 @@ class TwotoneFX_Plugin extends TwotoneFX_AbstractPlugin {
 	 * @return array
 	 */
 	public function register_image_editor( $editors ) {
-		include( $this->get_path( 'php/class-image-editor-gd.php' ) );
-		include( $this->get_path( 'php/class-image-editor-imagick.php' ) );
-		include( $this->get_path( 'php/class-image-pixel-gd.php' ) );
+		include_once( $this->get_path( 'php/class-image-editor-gd.php' ) );
+		include_once( $this->get_path( 'php/class-image-editor-imagick.php' ) );
+		include_once( $this->get_path( 'php/class-image-pixel-gd.php' ) );
 
 		array_unshift( $editors, 'TwotoneFX_Image_Editor_GD' );
 		array_unshift( $editors, 'TwotoneFX_Image_Editor_Imagick' );
